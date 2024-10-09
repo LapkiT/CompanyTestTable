@@ -1,0 +1,48 @@
+.StartPageCompaniesHeader {
+    padding-top: 20px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: #f9f9bb;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 140;
+    border-bottom: 1px solid #B9B9B9;
+    margin-bottom: 8px;
+}
+
+.form {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 17px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
+.btn{
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 40px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+
+    &:hover {
+        background-color: #D3D3D3;
+    }
+}

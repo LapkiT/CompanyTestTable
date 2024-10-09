@@ -1,0 +1,27 @@
+body {
+    margin: 0;  
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+}
+
+.companySection {
+    flex-basis: 50%;
+    min-width: 360px;
+    max-width: 460px;
+    border-right: 1px solid black;
+    padding: 0px 20px 20px 20px;
+    background-color: #f9f9bb;  
+    overflow: auto;
+}
+
+.employersSection {
+    flex-grow: 1;
+    padding: 20px;  
+    background-color: rgb(209, 160, 160);
+    overflow: auto;
+    padding-top: 0px;
+}

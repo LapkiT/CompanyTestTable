@@ -1,0 +1,38 @@
+.fakeWrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 50px;
+    text-align: start;
+    font-size: 16px;
+    font-weight: normal;
+    width: 100%;
+
+    .check {
+        width: 24px;
+    }
+    .company {
+        min-width: 140px;
+        max-width: 200px;
+        font-size: 18px;
+    }
+    .workers {
+        width: 75px;
+        font-size: 18px;
+    }
+    .city {
+        font-size: 18px;
+    
+    }
+}
+
+.splitter {
+    width: 1px;
+    height: 50%;
+    background-color: black;
+}
+
+.hr {
+    width: 100%;
+    border: 1px solid #D3D3D3;
+}

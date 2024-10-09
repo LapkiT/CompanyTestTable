@@ -1,0 +1,9 @@
+.StartPageEmployeesSection {
+    background-color: #fffafa;
+    margin: 0;
+    :nth-child(2n) {
+        div {
+            background: #c1b0b0;
+        }
+    }
+}

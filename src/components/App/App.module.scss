@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    ::-webkit-scrollbar {
+        width: 12px; /* Ширина полосы прокрутки для браузеров на основе WebKit, таких как Chrome и Safari */
+        background-color: #635f5f;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: #747474; /* Цвет ползунка прокрутки */
+        border-radius: 6px; /* Скругление углов ползунка прокрутки */
+    }
+    ::-webkit-scrollbar-track {
+        background-color: #ffffff; /* Цвет трека прокрутки */
+    }
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}

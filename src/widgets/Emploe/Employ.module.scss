@@ -1,0 +1,42 @@
+.employ {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    margin: 0px 0px;
+    transition: all 0.3s ease;
+}
+
+.employCheck {
+    width: 30px;
+    cursor: pointer;
+}
+.employName {
+    width: 33%;
+}
+.employLast {
+    width: 33%;
+}
+.employPosition {
+    width: 33%;
+}
+
+.employWrapper {
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    margin: 4px 0px;
+}
+
+.checked {
+    background-color: whitesmoke !important;
+}
+
+.pencelWrapper {
+    padding: 0px 14px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent !important;
+}
